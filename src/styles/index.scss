@@ -9,8 +9,8 @@ h1 {
 }
 
 .card {
-  width: 50px;
-  height: 60px;
+  width: 48px;
+  height: 56px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,9 +21,11 @@ h1 {
 }
 .selected-card {
   box-shadow: 2px 2px 9px 0px #6695b3;
+  transition: 0.5s;
 }
 .success-card {
   box-shadow: 2px 2px 9px 0px #7ba86a;
+  transition: 0.5s;
 }
 .card span {
   transition: 1s;
@@ -43,7 +45,7 @@ h1 {
 
 .wrapper {
   display: grid;
-  grid-gap: 25px;
-  grid-template-columns: repeat(10, 50px);
+  grid-gap: 24px;
+  grid-template-columns: repeat(10, 48px);
   justify-content: center;
 }
